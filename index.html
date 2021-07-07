@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>UI Task</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, maximum-scale=1, user-scalable=no">
+	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+	<meta name="description" content="Interview With Corpseed">
+	<link rel="icon" type="image/png" size="16x16" href="">
+	<link  rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/owl.carousel.min.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/style.css">
+	<link rel="stylesheet" type="text/css" href="resources/css/responsive.css">
+</head>
+<!--Body Start-->
+<body>
+<!--Header -->
+<main>
+	<div class="form">
+		<form method="post">
+			<input type="text" placeholder="TITLE" name="input">
+			<textarea type="text" placeholder="TASK DESCRIPTION" name="textarea"></textarea>
+			<button onClick="getData(input.value, textarea.value)" type="button">Submit</button>
+	</div>
+	<div class="myTodo">
+		<div class="todo">
+			<h3>Tasks To Do's</h3>
+		</div>
+		<div class="Inprogress">
+			<h3>In Going Tasks</h3>
+		</div>
+		<div class="Complete">
+			<h3>Completed Tasks</h3>
+		</div>
+	</div>
+</main>
+</body>
+
+<!--Body End-->
+<script  src="resources/js/jquery-3.3.1.min.js"></script>
+<script  src="resources/js/owl.carousel.min.js"></script>
+<script  src="resources/js/main.js"></script>
+</html>
